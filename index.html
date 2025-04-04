@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#" class="logo">ShopEasy</a>
+        <div class="toggle">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="hero" id="home">
+        <div>
+            <h1>Welcome to ShopEasy</h1>
+            <p>Your one-stop shop for everything you need!</p>
+            <button onclick="window.location.href='#products'">Shop Now</button>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="features">
+        <h2>Why Shop with Us?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>Wide Range of Products</h3>
+                <p>From electronics to clothing, we have it all.</p>
+            </div>
+            <div class="feature">
+                <h3>Fast Delivery</h3>
+                <p>Get your orders delivered quickly and reliably.</p>
+            </div>
+            <div class="feature">
+                <h3>Best Prices</h3>
+                <p>Shop at the best prices with unbeatable discounts.</p>
+            </div>
+        </div>
+    </div>
+
+<!-- product Section -->
+    <div class="products" id="products">
+        <h1>Our Products</h1>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/electronics" alt="Product 1">
+                <h2>Electronics</h2>
+                <p>$79.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/clothes.jpg" alt="Product 2">
+                <h2>Clothes</h2>
+                <p>$59.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/kitchen.jpg" alt="Product 3">
+                <h2>kitchen Accessories</h2>
+                <p>$39.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="images/bike.webp" alt="Product 4">
+                <h2>Bike Accessories</h2>
+                <p>$29.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <h1>About ShopEasy</h1>
+        <p>Welcome to ShopEasy, your number one source for all things shopping. We're dedicated to giving you the very best of products, with a focus on quality, customer service, and uniqueness.</p>
+        <p>Founded in 2025, ShopEasy has come a long way from its beginnings. We now serve customers all over the world and are thrilled to turn our passion into our website. We hope you enjoy our products as much as we enjoy offering them to you.</p>
+    </div>
+
+    <!-- Team Section -->
+    <div class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="https://wext.in/wp-content/uploads/2017/12/divya-narendra-real-founder-facebook.png" alt="Team Member 1">
+                <h3>Jane Doe</h3>
+                <p>Founder & CEO</p>
+            </div>
+            <div class="team-member">
+                <img src="https://images.prismic.io/algorandcom/905e7879-5d11-4b3a-81fb-278f12145352_silvio-micali.jpeg?auto=compress%2Cformat&rect=234%2C0%2C1220%2C900&w=500&h=369" alt="Team Member 2">
+                <h3>John Smith</h3>
+                <p>Head of Operations</p>
+            </div>
+            <div class="team-member">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202412/epigamia-co-founder-rohan-mirchandani-dies-at-42-due-to-cardiac-arrest-220223300-16x9_0.jpeg?VersionId=jCQrZUOfertVwYj8I3SmrzBlCKRJYjZk" alt="Team Member 3">
+                <h3>Emily Johnson</h3>
+                <p>Marketing Lead</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact">
+        <h1>Contact Us</h1>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2025 ShopEasy. All rights reserved.</p>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
